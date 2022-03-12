@@ -1,4 +1,3 @@
-
       
       let ListSuggestionKeywords = ['Java', 'Python','BrainFuck']
       let ListSuggestionElements = ''
@@ -56,7 +55,7 @@
           /* Enter */
           case 13 : 
           document.querySelector('.SearchInput__input').value=ListSuggestionKeywords[SelectedSuggestionElement]
-          alert(value)&event.preventDefault()
+          alert(ListSuggestionKeywords[SelectedSuggestionElement])&event.preventDefault()
           break
           
           /* Left */
